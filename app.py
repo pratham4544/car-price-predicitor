@@ -2,6 +2,7 @@ import pandas as pd
 import streamlit as st
 import pickle
 import numpy as np
+import sklearn
 pipe = pickle.load(open('liner_reg.pkl','rb'))
 
 company = ['Hyundai', 'Mahindra', 'Ford', 'Maruti', 'Skoda', 'Audi', 'Toyota',
